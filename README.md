@@ -1,0 +1,1 @@
+This is the README file for the Kaizo Alterna (Splatoon 3) mod.
