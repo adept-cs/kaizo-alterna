@@ -1,0 +1,132 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Bakeable: true
+      Gyaml: Work/Actor/Mpt_FldObj_MsnStartCreanRoom.engine__actor__ActorParam.gyml
+      Hash: !ul 2765853804742256335
+      InstanceID: 4745a634-4577-d9bb-fb80-16db160cd9ff
+      Name: Lft_FldObj_MsnStartCreanRoom
+      Phive:
+        Placement: {ID: !ul 2765853804742256335}
+      SRTHash: !u 665160971
+      TeamCmp: {Team: Neutral}
+      Translate:
+        - 0.00000
+        - 50.25000
+        - -164.25000
+      game__RailMovableSequentialParam: {}
+      game__SequentialRotateParam: {}
+      spl__EventActorStateBancParam: {}
+      spl__LiftBancParam: {}
+      spl__PaintBancParam: {}
+      spl__ailift__AILiftBancParam: {}
+    - Gyaml: Obj_SupplyPoint
+      Hash: !ul 13051018954127572795
+      InstanceID: 56de04ce-5d14-60b5-f5fb-773b83d5abd5
+      Name: Obj_SupplyPoint
+      Phive:
+        Placement: {ID: !ul 13051018954127572795}
+      SRTHash: !u 1895405943
+      TeamCmp: {Team: Neutral}
+      Translate:
+        - 0.00000
+        - 50.25000
+        - -166.75000
+    - Gyaml: StartPos
+      Hash: !ul 929751383502109478
+      InstanceID: 14a1d29f-ecb4-dc31-b9e9-b31b41cfd6d0
+      Name: StartPos
+      Phive:
+        Placement: {ID: !ul 929751383502109478}
+      SRTHash: !u 3270511252
+      TeamCmp: {Team: Neutral}
+      Translate:
+        - 0.00000
+        - 50.57887
+        - -166.75000
+      spl__StartPosParam: {PlayerIndex: !l 0}
+    - Gyaml: Obj_TicketGate
+      Hash: !ul 13582414868296694280
+      InstanceID: 5386d809-3275-a7ee-0122-487b295c901b
+      Name: Obj_TicketGate
+      Phive:
+        Placement: {ID: !ul 13582414868296694280}
+      Rotate:
+        - -3.14159
+        - 0.00000
+        - -3.14159
+      SRTHash: !u 202067758
+      TeamCmp: {Team: Neutral}
+      Translate:
+        - 0.00000
+        - 50.25000
+        - -156.75000
+      game__EventPerformerBancParam: {}
+    - Gyaml: MissionFirstCheckPoint
+      Hash: !ul 13182071945313355806
+      InstanceID: 439d0cfc-313d-e80b-e284-96fbaa11fb5e
+      Name: MissionFirstCheckPoint
+      Phive:
+        Placement: {ID: !ul 13182071945313355806}
+      SRTHash: !u 2588148178
+      TeamCmp: {Team: Neutral}
+      Translate:
+        - 0.00000
+        - 50.25000
+        - -141.75000
+      spl__MissionCheckPointBancParam: {}
+    - Gyaml: Obj_GoalMissionAlterna
+      Hash: !ul 10953541329933933705
+      InstanceID: ae5c552f-407e-152b-a6c9-198db08b298d
+      Name: Obj_GoalMissionAlterna
+      Phive:
+        Placement: {ID: !ul 10953541329933933705}
+      Rotate:
+        - -3.14159
+        - 0.00000
+        - -3.14159
+      SRTHash: !u 1210077463
+      TeamCmp: {Team: Neutral}
+      Translate:
+        - 0.00000
+        - 52.49999
+        - 150.75000
+    - Gyaml: InkRail
+      Hash: !ul 8761100319945195369
+      InstanceID: c65811e5-7bfe-5f2e-d890-aeae7d92b388
+      Name: InkRail
+      Phive:
+        Placement: {ID: !ul 8761100319945195369}
+      SRTHash: !u 2170955860
+      TeamCmp: {Team: Neutral}
+      Translate:
+        - 0.00000
+        - 51.50000
+        - -172.50000
+      spl__InkRailBancParam: {LinkToPoint: !ul 10464440047873714205}
+  AiGroups:
+    - Hash: !ul 927818069396386034
+      Logic: Logic/Root/first/first_054f.logic.root.ain
+      References:
+        - {Id: InkRail_3640, Path: InkRail_3640, Reference: !ul 8761100319945195369}
+  FilePath: Work/Banc/Scene/first.bcett.json
+  Rails:
+    - Gyaml: LiftRail
+      Hash: !ul 12452755499621933024
+      InstanceID: f0e7646e-bc24-87ac-8ebb-26cd02af7d2b
+      IsClosed: false
+      Name: LiftRail
+      Points:
+        - Hash: !ul 10464440047873714205
+          Translate:
+            - 0.00000
+            - 51.50000
+            - -172.50000
+        - Hash: !ul 8990958694766161443
+          Translate:
+            - 0.00000
+            - 51.50000
+            - -141.75000
